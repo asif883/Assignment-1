@@ -20,6 +20,7 @@ font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+
 }
 
 .Banner h2{
@@ -29,4 +30,88 @@ font-size: 72px;
 font-style: normal;
 font-weight: 900;
 line-height: 95px; 
+}
+.discount h2{
+    color: red;
+
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+
+}
+
+.discount p{
+    color: red;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+
+}
+.discount h3{
+    color: black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.newyearpic{
+    margin-left: 400px;
+
+}
+.party-banner{
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-right: 140px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    border-radius: 10px;
+}
+.party-welcome{
+    color: white;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding-left: 126px;
+    padding-top: 126px;
+}
+.party-banner p{
+    color: gray;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 126px;
+}
+.btn {
+    color: rgb(251, 250, 248);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #070211;
+    margin-left: 158px;
+}
+.new{
+    width: 319.83px;
+    height: 464.662px;
+    padding: 50px 5px 50px 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
 }
